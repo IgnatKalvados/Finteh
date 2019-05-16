@@ -84,4 +84,68 @@ footer {
 footer p {
   text-align: center;
 }
+
+@media (max-width: 800px) {
+  .top_nav .main_logo {
+    font-size: 16px;
+  }
+  .top_nav nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .top_nav nav a {
+    padding: 20px 8px;
+  }
+}
+
+@media (max-width: 650px) {
+  header {
+    height: 80px;
+  }
+  .top_nav .main_logo {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .top_nav nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .top_nav nav a {
+    padding: 5px 5px;
+  }
+}
+
+@media (max-width: 450px) {
+  header {
+    height: 100px;
+  }
+  .top_nav .main_logo {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .top_nav nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .top_nav nav a {
+    padding: 5px 5px;
+  }
+}
 /*# sourceMappingURL=documents.css.map */

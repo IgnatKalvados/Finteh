@@ -95,3 +95,51 @@ footer {
         
     }
 }
+@media (max-width: 800px) {
+    .top_nav {
+        .main_logo{font-size: 16px;}
+        nav {
+            display: flex;
+            flex-wrap: wrap;
+            a {
+                padding: 20px 8px;  
+            }
+        }
+    }
+}
+@media (max-width: 650px) {
+    header {
+        height: 80px;
+    }
+    .top_nav {
+        .main_logo{
+            justify-content: center;
+        }
+        nav {
+            display: flex;
+            justify-content: flex-end;
+            flex-wrap: wrap;
+            a {
+                padding: 5px 5px;  
+            }
+        }
+    }
+}
+@media (max-width: 450px) {
+    header {
+        height: 100px;
+    }
+    .top_nav {
+        .main_logo{
+            justify-content: center;
+        }
+        nav {
+            display: flex;
+            justify-content: flex-end;
+            flex-wrap: wrap;
+            a {
+                padding: 5px 5px;  
+            }
+        }
+    }
+}
